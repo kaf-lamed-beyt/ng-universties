@@ -1,9 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import fs from "fs";
 import path from "path";
-import { University } from "@/public/types/university.type";
-
-
+import { University } from "@/types/university.type";
 
 export default async function handler(
   req: NextApiRequest,
