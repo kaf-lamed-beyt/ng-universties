@@ -103,7 +103,15 @@ const universitySchema = {
       },
     },
   },
-  required: ["name", "acronym", "location", "founded", "website", "faculties"],
+  required: [
+    "name",
+    "type",
+    "acronym",
+    "location",
+    "founded",
+    "website",
+    "faculties",
+  ],
   additionalProperties: false,
 };
 
@@ -125,7 +133,7 @@ function validateUniversityFile(filePath) {
   } catch (error) {
     console.error(
       `Error processing ${path.basename(filePath)}:`,
-      error.message
+      error.message,
     );
     return false;
   }
@@ -153,7 +161,7 @@ function validateUniversity() {
       .map((file) => path.join(universitiesDir, `${file.trim()}.json`));
   } else {
     filesToValidate = universityFiles.map((file) =>
-      path.join(universitiesDir, file)
+      path.join(universitiesDir, file),
     );
   }
 

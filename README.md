@@ -73,15 +73,18 @@ You can find a couple of university logos [here](https://myschoolportal.net/blog
 ### **Troubleshooting Guide**:
 
 1. This project uses `pnpm` for package management. If you don't have it installed, you can do so by running the following command:
-   ```
+
+   ```shell
    npm install -g pnpm
    ```
+
    Alternatively, you can follow the [comprehensive installation guide](https://pnpm.io/installation).
 
 2. If you've mistakenly used `npm`, `yarn`, or any other package manager, please follow these steps:
    - Delete the `node_modules` folder and any lock files (e.g., `package-lock.json`, `yarn.lock`, etc.).
    - Reinstall the packages using `pnpm` by running:
-     ```
+
+     ```shell
      pnpm install
      ```
 
