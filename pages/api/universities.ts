@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import fs from "fs";
 import path from "path";
-import { University } from "@/public/data.type";
+import { University } from "@/public/types/university.type";
 
 
 
