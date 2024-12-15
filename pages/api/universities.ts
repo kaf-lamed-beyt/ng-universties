@@ -1,29 +1,9 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import fs from "fs";
 import path from "path";
+import { University } from "@/public/data.type";
 
-export type Department = {
-  name: string;
-  acronym: string;
-};
 
-export interface University {
-  logo: string;
-  current_vc: string;
-  name: string;
-  acronym: string;
-  location: {
-    city: string;
-    state: string;
-  };
-  founded: number;
-  website: string;
-  faculties: {
-    acronym: string;
-    name: string;
-    departments: Department[];
-  }[];
-}
 
 export default async function handler(
   req: NextApiRequest,

@@ -3,6 +3,7 @@
   "current_vc": "",
   "name": "Kwara State University",
   "acronym": "KWASU",
+  "type": "state",
   "location": {
     "city": "Ilorin",
     "state": "Kwara"
