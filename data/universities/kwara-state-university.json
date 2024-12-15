@@ -1,6 +1,6 @@
 {
   "logo": "https://myschoolportal.net/blog/download/kwara-state-university-logo/",
-  "current_vc": "",
+  "current_vc": "Professor Shaykh-Luqman Alade Jimoh",
   "name": "Kwara State University",
   "acronym": "KWASU",
   "location": {
@@ -20,14 +20,14 @@
         },
         { "acronym": "", "name": "Animal Production" },
         { "acronym": "", "name": "Crop Production" },
-        { "acronym": "", "name": "Food Science and Technology" }
+        { "acronym": "FST", "name": "Food Science and Technology" }
       ]
     },
     {
       "name": "Faculty of Applied Health Science",
       "departments": [
-        { "acronym": "", "name": "Environmental Health Sciences" },
-        { "acronym": "", "name": "Public Health Science" }
+        { "acronym": "EHS", "name": "Environmental Health Sciences" },
+        { "acronym": "PHS", "name": "Public Health Science" }
       ]
     },
     {
@@ -53,20 +53,20 @@
     {
       "name": "Faculty of Engineering and Technology",
       "departments": [
-        { "acronym": "", "name": "Aeronautical and Astronautical Engineering" },
-        { "acronym": "", "name": "Civil and Environmental Engineering" },
-        { "acronym": "", "name": "Electrical and Computer Engineering" },
-        { "acronym": "", "name": "Food and Agricultural Engineering" },
-        { "acronym": "", "name": "Material Science Engineering" },
+        { "acronym": "AAE", "name": "Aeronautical and Astronautical Engineering" },
+        { "acronym": "CEE", "name": "Civil and Environmental Engineering" },
+        { "acronym": "ECE", "name": "Electrical and Computer Engineering" },
+        { "acronym": "FAE", "name": "Food and Agricultural Engineering" },
+        { "acronym": "MSE", "name": "Material Science Engineering" },
         { "acronym": "", "name": "Mechanical Engineering" }
       ]
     },
     {
       "name": "Faculty of Information and Communication Technology",
       "departments": [
-        { "acronym": "", "name": "Computer Science" },
-        { "acronym": "", "name": "Library and Information Science" },
-        { "acronym": "", "name": "Mass Communication" }
+        { "acronym": "CS", "name": "Computer Science" },
+        { "acronym": "LIS", "name": "Library and Information Science" },
+        { "acronym": "Mass Com", "name": "Mass Communication" }
       ]
     },
     {
@@ -77,34 +77,29 @@
       ]
     },
     {
-      "name": "Faculty of Management and Social Sciences",
+      "name": "Faculty of Management and Social Sciences", 
       "departments": [
-        {
-          "acronym": "",
-          "name": "Agricultural Economics and Extension Services"
-        },
-        {
-          "acronym": "",
-          "name": "Animal Production, Fisheries and Acquaculture"
-        },
-        { "acronym": "", "name": "Crop Production" },
-        { "acronym": "", "name": "Food Science and Technology" }
+        { "acronym": "", "name": "Accounting and Finance" },
+        { "acronym": "", "name": "Business and Entrepreneurship" },
+        { "acronym": "", "name": "Economics and Development Studies" },
+        { "acronym": "", "name": "Politics and Governance" },
+        { "acronym": "", "name": "Tourism and Hospitality Management" }
       ]
     },
     {
       "acronym": "",
       "name": "Faculty of Pure and Applied Sciences",
       "departments": [
-        { "acronym": "", "name": "Biochemistry" },
+        { "acronym": "BCH", "name": "Biochemistry" },
         { "acronym": "", "name": "Botany" },
-        { "acronym": "", "name": "Chemistry and Industrial Chemistry" },
-        { "acronym": "", "name": "Environmental Management and Toxicology" },
+        { "acronym": "ICH", "name": "Chemistry and Industrial Chemistry" },
+        { "acronym": "EMT", "name": "Environmental Management and Toxicology" },
         { "acronym": "", "name": "Geology and Mineral Science" },
         { "acronym": "", "name": "Mathematics and Statistics" },
-        { "acronym": "", "name": "Microbiology" },
+        { "acronym": "MCB", "name": "Microbiology" },
         { "acronym": "", "name": "Physics and Material Sciences" },
-        { "acronym": "", "name": "Plant and Environmental Biology" },
-        { "acronym": "", "name": "Zoology" }
+        { "acronym": "PEB", "name": "Plant and Environmental Biology" },
+        { "acronym": "ZLY", "name": "Zoology" }
       ]
     }
   ]
