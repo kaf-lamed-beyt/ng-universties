@@ -53,12 +53,15 @@
     {
       "name": "Faculty of Engineering and Technology",
       "departments": [
-        { "acronym": "AAE", "name": "Aeronautical and Astronautical Engineering" },
+        {
+          "acronym": "AAE",
+          "name": "Aeronautical and Astronautical Engineering"
+        },
         { "acronym": "CEE", "name": "Civil and Environmental Engineering" },
         { "acronym": "ECE", "name": "Electrical and Computer Engineering" },
         { "acronym": "FAE", "name": "Food and Agricultural Engineering" },
         { "acronym": "MSE", "name": "Material Science Engineering" },
-        { "acronym": "", "name": "Mechanical Engineering" }
+        { "acronym": "MEE", "name": "Mechanical Engineering" }
       ]
     },
     {
@@ -77,7 +80,7 @@
       ]
     },
     {
-      "name": "Faculty of Management and Social Sciences", 
+      "name": "Faculty of Management and Social Sciences",
       "departments": [
         { "acronym": "", "name": "Accounting and Finance" },
         { "acronym": "", "name": "Business and Entrepreneurship" },
