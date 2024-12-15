@@ -1,0 +1,238 @@
+{
+  "logo": "https://logo",
+  "current_vc": "Professor Adenike Temidayo Oladiji",
+  "name": "Federal University of Technology Akure",
+  "acronym": "FUTA",
+  "location": {
+    "city": "Akure",
+    "state": "Ondo"
+  },
+  "founded": 1981,
+  "website": "https://futa.edu.ng",
+  "faculties": [
+    {
+      "acronym": "",
+      "name": "School of Agriculture & Agricultural Technology",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Agricultural Extension & Communication Technology"
+        },
+        {
+          "acronym": "",
+          "name": "Agricultural & Resource Economics"
+        },
+        {
+          "acronym": "",
+          "name": "Animal Production & Health"
+        },
+        {
+          "acronym": "",
+          "name": "Crop, Soil & Pest Management"
+        },
+        {
+          "acronym": "",
+          "name": "Fisheries & Acquaculture Technology"
+        },
+        {
+          "acronym": "",
+          "name": "Ecotourism & Wildlife Management"
+        },
+        {
+          "acronym": "",
+          "name": "Forestry & Wood Technology"
+        },
+        {
+          "acronym": "",
+          "name": "Food Science & Technology"
+        }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "School of Engineering & Engineering Technology",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Agricultural Engineering"
+        },
+        {
+          "acronym": "",
+          "name": "Civil Engineering"
+        },
+        {
+          "acronym": "",
+          "name": "Electrical & Electronics Engineering"
+        },
+        {
+          "acronym": "",
+          "name": "Mechanical Engineering"
+        },
+        {
+          "acronym": "",
+          "name": "Metallurgical & Materials Engineering"
+        },
+        {
+          "acronym": "",
+          "name": "Mining Engineering"
+        }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "School of Earth & Mineral Sciences",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Applied Geophysics"
+        },
+        {
+          "acronym": "",
+          "name": "Applied Geology"
+        },
+        {
+          "acronym": "",
+          "name": "Metereology"
+        },
+        {
+          "acronym": "",
+          "name": "Marine Sciences & Technology"
+        },
+        {
+          "acronym": "",
+          "name": "Remote Sensing & Geoscience Information Systems"
+        }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "School of Environmental Technlogy",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Architecture"
+        },
+        {
+          "acronym": "",
+          "name": "Building Technology"
+        },
+        {
+          "acronym": "",
+          "name": "Estate Management"
+        },
+        {
+          "acronym": "",
+          "name": "Industrial Design"
+        },
+        {
+          "acronym": "",
+          "name": "Quantity Surveying"
+        },
+        {
+          "acronym": "",
+          "name": "Urban & Regional Planning"
+        },
+        {
+          "acronym": "",
+          "name": "Surveying"
+        },
+        {
+          "acronym": "",
+          "name": "Geoinformatics"
+        }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "School of Logistics & Innovation Technology",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Project Management Technology"
+        },
+        {
+          "acronym": "",
+          "name": "Transport Management Technology"
+        },
+        {
+          "acronym": "",
+          "name": "Library Management Technology"
+        },
+        {
+          "acronym": "",
+          "name": "Entrepreneurship Management Technology"
+        }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "School of Life Sciences",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Biochemistry"
+        },
+        {
+          "acronym": "",
+          "name": "Biology"
+        },
+        {
+          "acronym": "",
+          "name": "Microbiology"
+        },
+        {
+          "acronym": "",
+          "name": "Biotechnology"
+        }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "School of Physical Sciences",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Chemistry"
+        },
+        {
+          "acronym": "",
+          "name": "General Studies"
+        },
+        {
+          "acronym": "",
+          "name": "Mathematical Sciences"
+        },
+        {
+          "acronym": "",
+          "nane": "Physics and Statistics"
+        }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "School of Computing",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Computer Science"
+        },
+        {
+          "acronym": "",
+          "name": "Information Technology"
+        },
+        {
+          "acronym": "",
+          "name": "Cybersecurity"
+        },
+        {
+          "acronym": "",
+          "name": "Information Systems"
+        },
+        {
+          "acronym": "",
+          "name": "Software Engineering"
+        }
+      ]
+    }
+  ]
+}
