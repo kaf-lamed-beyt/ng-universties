@@ -3,6 +3,7 @@
   "current_vc": "Professor Shaykh-Luqman Alade Jimoh",
   "name": "Kwara State University",
   "acronym": "KWASU",
+  "type": "state",
   "location": {
     "city": "Ilorin",
     "state": "Kwara"

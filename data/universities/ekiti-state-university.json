@@ -1,0 +1,34 @@
+{
+  "logo": "https://myschoolportal.net/blog/download/ekiti-state-university-logo",
+  "current_vc": "Professor Joseph Babatola Ayodele",
+  "name": "Ekiti State University",
+  "acronym": "EKSU",
+  "type": "state",
+  "location": {
+    "city": "Ado-Ekiti",
+    "state": "Ekiti"
+  },
+  "founded": 1982,
+  "website": "https://eksu.edu.ng",
+  "faculties": [
+    {
+      "acronym": "AGRIC",
+      "name": "Faculty of Agricultural Science",
+      "departments": [
+        {
+          "acronym": "AES",
+          "name": "Agricultural Economics and Extension Services"
+        },
+        { "acronym": "ANS", "name": "Animal Science" },
+        { "acronym": "CHL", "name": "Crop, Horticulture and Landscape Design" },
+        { "acronym": "FSN", "name": "Food Science and Nutrition" },
+        {
+          "acronym": "SRE",
+          "name": "Soil Resources and Environmental Management"
+        },
+        { "acronym": "FAM", "name": "Fishery and Aquaculture Management" },
+        { "acronym": "SRE", "name": "Forest Resources and Wildlife Management" }
+      ]
+    }
+  ]
+}

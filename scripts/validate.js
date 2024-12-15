@@ -33,6 +33,10 @@ const universitySchema = {
       maxLength: 10,
       pattern: "^[A-Z]+$",
     },
+    type: {
+      type: "string",
+      enum: ["federal", "state", "private"],
+    },
     location: {
       type: "object",
       properties: {
@@ -121,7 +125,7 @@ function validateUniversityFile(filePath) {
   } catch (error) {
     console.error(
       `Error processing ${path.basename(filePath)}:`,
-      error.message,
+      error.message
     );
     return false;
   }
@@ -149,7 +153,7 @@ function validateUniversity() {
       .map((file) => path.join(universitiesDir, `${file.trim()}.json`));
   } else {
     filesToValidate = universityFiles.map((file) =>
-      path.join(universitiesDir, file),
+      path.join(universitiesDir, file)
     );
   }
 
