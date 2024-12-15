@@ -14,10 +14,10 @@
       "acronym": "ADMIN",
       "name": "Faculty of Administration",
       "departments": [
-        { "acronym": "", "name": "International Relations" },
-        { "acronym": "", "name": "Local Government and Development Studies" },
-        { "acronym": "", "name": "Management and Account" },
-        { "acronym": "", "name": "Public Administration" }
+        { "acronym": "IRS", "name": "International Relations" },
+        { "acronym": "LGS", "name": "Local Government and Development Studies" },
+        { "acronym": "ACC", "name": "Management and Account" },
+        { "acronym": "POL", "name": "Public Administration" }
       ]
     },
     {
