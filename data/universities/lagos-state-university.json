@@ -1,0 +1,157 @@
+{
+  "logo": "https://myschoolportal.net/blog/download/lagos-state-university-logo/",
+  "current_vc": "Professor Ibiyemi Ibilola Olatunji-Bello",
+  "name": "Lagos State University",
+  "acronym": "LASU",
+  "type": "state",
+  "location": {
+    "city": "Ojo",
+    "state": "Lagos"
+  },
+  "founded": 1983,
+  "website": "https://lasu.edu.ng",
+  "faculties": [
+    {
+      "name": "Faculty of Arts",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "African Languages, Literatures and Communication Arts"
+        },
+        { "acronym": "", "name": "English" },
+        { "acronym": "", "name": "Foreign Languages" },
+        { "acronym": "", "name": "History and International Studies" },
+        { "acronym": "", "name": "Religions" },
+        { "acronym": "", "name": "Philosophy" },
+        { "acronym": "", "name": "Theatre Arts and Music" }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "Faculty of Basic Medical Sciences",
+      "departments": [
+        { "acronym": "", "name": "Anatomy" },
+        { "acronym": "", "name": "Chemical Pathology" },
+        { "acronym": "", "name": "Hermatology and Blood Transfusion" },
+        { "acronym": "", "name": "Medical Biochemistry" },
+        { "acronym": "", "name": "Medical Microbiology and Parasitology" },
+        { "acronym": "", "name": "Pathology and Forensic Medicine" },
+        { "acronym": "", "name": "Pharamcology" },
+        { "acronym": "", "name": "Physiology" }
+      ]
+    },
+    {
+      "name": "Faculty of Denistry",
+      "departments": [
+        { "acronym": "", "name": "Child Dental Health" },
+        { "acronym": "", "name": "Oral and Maxillofacial Surgery" },
+        { "acronym": "", "name": "Oral Pathology and Oral Medicine" },
+        { "acronym": "", "name": "Preventive Dentists" },
+        { "acronym": "", "name": "Restorative Dentistry" }
+      ]
+    },
+    {
+      "name": "Faculty of Clincial Sciences",
+      "departments": [
+        { "acronym": "", "name": "Anesthesia" },
+        { "acronym": "", "name": "Behavioural Medicine" },
+        { "acronym": "", "name": "Community Health and Primary Health Care" },
+        { "acronym": "", "name": "Surgery" },
+        { "acronym": "", "name": "Medicine" },
+        { "acronym": "", "name": "Obstetrics & Gynaecology" },
+        { "acronym": "", "name": "Paediatrics & Child Health" },
+        { "acronym": "", "name": "Radiology" },
+        { "acronym": "", "name": "Nursing" }
+      ]
+    },
+    {
+      "name": "Faculty of Education",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Educational Foundation and Counseling Psychology"
+        },
+        { "acronym": "", "name": "Educational Management" },
+        { "acronym": "", "name": "Human Kinetic Sports and Health Education" },
+        { "acronym": "", "name": "Science and Technology Education" },
+        {
+          "acronym": "",
+          "name": "Language Arts and Social Science Education"
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Engineering",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "Aeronautics and Astronautics Engineering"
+        },
+        { "acronym": "", "name": "Aerospace Engineering" },
+        { "acronym": "", "name": "Chemical Engineering" },
+        { "acronym": "", "name": "Electronics and Computer Engineering" },
+        { "acronym": "", "name": "Mechanical Engineering" }
+      ]
+    },
+    {
+      "name": "Faculty of Law",
+      "departments": [
+        { "acronym": "", "name": "Business Law" },
+        { "acronym": "", "name": "International and Islamic Law" },
+        { "acronym": "", "name": "Jurisprudence and International Law" },
+        { "acronym": "", "name": "Law" },
+        { "acronym": "", "name": "Public and Private Law" }
+      ]
+    },
+    {
+      "name": "Faculty of Management Sciences",
+      "departments": [
+        { "acronym": "", "name": "Accounting" },
+        { "acronym": "", "name": "Banking and Finance" },
+        { "acronym": "", "name": "Business Administration" },
+        {
+          "acronym": "",
+          "name": "Industrial Relations and Personnel Management"
+        },
+        { "acronym": "", "name": "Marketing" },
+        { "acronym": "", "name": "Public Administration" }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "Faculty of Science",
+      "departments": [
+        { "acronym": "", "name": "Biochemistry" },
+        { "acronym": "", "name": "Botany" },
+        { "acronym": "", "name": "Chemistry" },
+        { "acronym": "", "name": "Computer Science" },
+        { "acronym": "", "name": "Fisheries" },
+        { "acronym": "", "name": "Mathematics" },
+        { "acronym": "", "name": "Microbiology" },
+        { "acronym": "", "name": "Physics" },
+        { "acronym": "", "name": "Science Laboratory Technology" },
+        { "acronym": "", "name": "Zoology and Environmental Biology" }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "Faculty of Social Sciences",
+      "departments": [
+        { "acronym": "", "name": "Economics" },
+        { "acronym": "", "name": "Geography & Planning" },
+        { "acronym": "", "name": "Political Science" },
+        { "acronym": "", "name": "Psychology" },
+        { "acronym": "", "name": "Sociology" }
+      ]
+    },
+    {
+      "acronym": "",
+      "name": "Faculty of Transport",
+      "departments": [
+        { "acronym": "", "name": "Transport Management and Operations" },
+        { "acronym": "", "name": "Transport Planning and Policy" },
+        { "acronym": "", "name": "Transport Technology and Infrastructure" }
+      ]
+    }
+  ]
+}
