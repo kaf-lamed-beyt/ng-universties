@@ -1,0 +1,25 @@
+{
+  "logo": "https://logo",
+  "current_vc": "",
+  "name": "University of Ibadan",
+  "acronym": "UI",
+  "type": "federal",
+  "location": {
+    "city": "Ibadan",
+    "state": "Oyo"
+  },
+  "founded": 1948,
+  "website": "https://ui.edu.ng",
+  "faculties": [
+    {
+      "acronym": "",
+      "name": "Faculty of Agriculture",
+      "departments": [
+        {
+          "acronym": "",
+          "name": "department"
+        }
+      ]
+    }
+  ]
+}
