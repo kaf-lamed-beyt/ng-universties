@@ -16,7 +16,7 @@ export default function Home() {
           height: "100vh",
         }}
       >
-        <p>Go to /api/universities</p>
+        <p>Go to /api/v1/universities/index.ts</p>
       </div>
     </>
   );
