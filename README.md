@@ -28,6 +28,17 @@ This is a public API of comprehensive, community-driven database of Nigerian uni
    pnpm run validate-unis --file university-of-lagos,ekiti-state-university
    ```
    7. Commit your changes with this command: `git commit -m "a message indicating what you've done"`
+
+   Before you commit, please make sure it follows the conventional commit message pattern. Learn more [here]("https://www.conventionalcommits.org/en/v1.0.0/#summary"). See the following info below:
+
+   - **Types**: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`, etc.
+   - **Scope**: (optional) A noun describing the part of the codebase the commit affects.
+   - **Description**: Short and imperative summary of the change.
+
+   ```shell
+   git commit -m "fix(ui): resolve navbar bug on mobile"
+   ```
+
    8. Create a Pull Request. [Watch this](https://www.youtube.com/watch?v=nCKdihvneS0)
 
 ---
@@ -44,7 +55,7 @@ This is a public API of comprehensive, community-driven database of Nigerian uni
    - Manually record the data, or
    - Inspect the webpage's source code to extract the HTML. You can clean and format this data into JSON using tools like ChatGPT.
 
-**Note:**  
+**Note:**
 The school website is the most reliable source for updated data. However, feel free to explore other options if they are more convenient.
 
 
@@ -59,10 +70,10 @@ The school website is the most reliable source for updated data. However, feel f
 ![ng-univerisities-logo-copy](https://github.com/user-attachments/assets/d075ee10-1273-4f8a-b578-4096e934e2a2)
 
 
-**Note:**  
-If the logo for a specific university is unavailable on the portal, try these alternative sources:  
-- The university’s official website.  
-- Wikipedia.  
+**Note:**
+If the logo for a specific university is unavailable on the portal, try these alternative sources:
+- The university’s official website.
+- Wikipedia.
 - News outlets or other trusted platforms.
 
 ---

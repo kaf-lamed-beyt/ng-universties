@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "validate-unis": "node scripts/validate.js"
+    "validate-unis": "node scripts/validate.js",
+    "prepare": "husky"
   },
   "license": "MIT",
   "dependencies": {
@@ -19,12 +20,16 @@
     "standard-version": "^9.5.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "commitizen": "^4.3.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.0",
+    "husky": "^9.1.7",
     "typescript": "^5"
   },
   "type": "module"
