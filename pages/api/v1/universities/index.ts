@@ -21,7 +21,7 @@ function loadUniversities(): University[] {
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse
+  res: NextApiResponse,
 ) {
   const { method, query } = req;
 
@@ -29,8 +29,16 @@ export default async function handler(
     case "GET":
       try {
         const universities = loadUniversities();
-        const { name, type, city, state, acronym, page = "1", limit = "20" } = query;
-        
+        const {
+          name,
+          type,
+          city,
+          state,
+          acronym,
+          page = "1",
+          limit = "20",
+        } = query;
+
         const nameFilter = Array.isArray(name) ? name[0] : name;
         const typeFilter = Array.isArray(type) ? type[0] : type;
         const cityFilter = Array.isArray(city) ? city[0] : city;
@@ -40,38 +48,41 @@ export default async function handler(
         const pageLimit = limit as string;
 
         let filtered = universities.filter((university) => {
-          if (
-            nameFilter &&
-            university.name?.toLowerCase() !== nameFilter.toLowerCase()
-          ) {
-            return false;
+          let passesFilter = true;
+
+          switch (true) {
+            case nameFilter &&
+              university.name?.toLowerCase() !== nameFilter.toLowerCase():
+              passesFilter = false;
+              break;
+
+            case typeFilter &&
+              university.type?.toLowerCase() !== typeFilter.toLowerCase():
+              passesFilter = false;
+              break;
+
+            case cityFilter &&
+              university.location.city?.toLowerCase() !==
+                cityFilter.toLowerCase():
+              passesFilter = false;
+              break;
+
+            case stateFilter &&
+              university.location.state?.toLowerCase() !==
+                stateFilter.toLowerCase():
+              passesFilter = false;
+              break;
+
+            case acronymFilter &&
+              university.acronym?.toLowerCase() !== acronymFilter.toLowerCase():
+              passesFilter = false;
+              break;
+
+            default:
+              break;
           }
-          if (
-            typeFilter &&
-            university.type?.toLowerCase() !== typeFilter.toLowerCase()
-          ) {
-            return false;
-          }
-          if (
-            cityFilter &&
-            university.location.city?.toLowerCase() !== cityFilter.toLowerCase()
-          ) {
-            return false;
-          }
-          if (
-            stateFilter &&
-            university.location.state?.toLowerCase() !==
-              stateFilter.toLowerCase()
-          ) {
-            return false;
-          }
-          if (
-            acronymFilter &&
-            university.acronym?.toLowerCase() !== acronymFilter.toLowerCase()
-          ) {
-            return false;
-          }
-          return true;
+
+          return passesFilter;
         });
 
         // Pagination
