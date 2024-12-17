@@ -1,5 +1,5 @@
 {
-  "logo": "https://myschoolportal.net/blog/download/obafemi-awolowo-university-logo/",
+  "logo": "https://myschoolportal.net/blog/wp-content/uploads/2024/11/obafemi-awolowo-university-logo-transparent.png",
   "current_vc": "Professor Adebayo Simeon Bamire",
   "name": "Obafemi Awolowo University",
   "acronym": "OAU",
@@ -25,9 +25,9 @@
       "acronym": "LAW",
       "name": "Faculty of Law",
       "departments": [
-        { "acronym": "BL", "name": "Business Law" },
-        { "acronym": "IL", "name": "International Law" },
-        { "acronym": "PL", "name": "Public Law" },
+        { "acronym": "BIL", "name": "Business Law" },
+        { "acronym": "IRL", "name": "International Law" },
+        { "acronym": "PBL", "name": "Public Law" },
         { "acronym": "JPL", "name": "Jurisprudence and Private Law" }
       ]
     },
