@@ -1,5 +1,5 @@
 {
-  "logo": "https://myschoolportal.net/blog/download/ekiti-state-university-logo",
+  "logo": "https://myschoolportal.net/blog/wp-content/uploads/2024/10/ekiti-state-university-logo-transparent.png",
   "current_vc": "Professor Joseph Babatola Ayodele",
   "name": "Ekiti State University",
   "acronym": "EKSU",
@@ -28,6 +28,149 @@
         },
         { "acronym": "FAM", "name": "Fishery and Aquaculture Management" },
         { "acronym": "SRE", "name": "Forest Resources and Wildlife Management" }
+      ]
+    },
+    {
+      "acronym": "ARTS",
+      "name": "Faculty of Arts",
+      "departments": [
+        {
+          "acronym": "ELS",
+          "name": "English and Literacy Studies"
+        },
+        { "acronym": "FRENCH", "name": "French" },
+        { "acronym": "HIS", "name": "History and International Studies" },
+        { "acronym": "LIN", "name": "Linguistics and Nigerian Languages" },
+        {
+          "acronym": "PHY",
+          "name": "Philosophy"
+        },
+        { "acronym": "RLS", "name": "Religious Studies" },
+        { "acronym": "TMA", "name": "Theatre and Media Arts" }
+      ]
+    },
+    {
+      "acronym": "ENGINEERING",
+      "name": "Faculty of Engineering",
+      "departments": [
+        {
+          "acronym": "CVE",
+          "name": "Civil Engineering"
+        },
+        { "acronym": "CEE", "name": "Computer Engineering" },
+        { "acronym": "EEE", "name": "Electrical and Electrical Engineering" },
+        { "acronym": "MEE", "name": "Mechanical Engineering" }
+      ]
+    },
+    {
+      "acronym": "EDUCATION",
+      "name": "Faculty of Education",
+      "departments": [
+        {
+          "acronym": "AED",
+          "name": "Adult Education and Community Development"
+        },
+        { "acronym": "ALE", "name": "Art and Language Education" },
+        { "acronym": "EMT", "name": "Educational Management" },
+        { "acronym": "GCE", "name": "Guidance and Counselling" },
+        { "acronym": "HHE", "name": "Human Kinetics and Health Education" },
+        { "acronym": "SEE", "name": "Science Education" },
+        { "acronym": "SSE", "name": "Social Science Education" },
+        { "acronym": "VTE", "name": "Vocational and Technical Education" }
+      ]
+    },
+    {
+      "acronym": "LAW",
+      "name": "Faculty of Law",
+      "departments": [
+        { "acronym": "BIL", "name": "Business and Industrial Law" },
+        { "acronym": "PPL", "name": "Private and Property Law" },
+        { "acronym": "PBL", "name": "Public Law" },
+        { "acronym": "JIL", "name": "Jurisprudence and International Law" }
+      ]
+    },
+    {
+      "acronym": "MANAGEMENT",
+      "name": "Faculty of Management Science",
+      "departments": [
+        { "acronym": "ACC", "name": "Accounting" },
+        { "acronym": "FIN", "name": "Finance" },
+        { "acronym": "BSA", "name": "Business Admin" }
+      ]
+    },
+    {
+      "acronym": "SCIENCE",
+      "name": "Faculty of Science",
+      "departments": [
+        { "acronym": "BCH", "name": "Biochemistry" },
+        { "acronym": "CHE", "name": "Chemistry" },
+        { "acronym": "PHY", "name": "Physics" },
+        { "acronym": "MTH", "name": "Mathematics" },
+        { "acronym": "CS", "name": "Computer Science" },
+        { "acronym": "GEO", "name": "Geology" },
+        { "acronym": "ICH", "name": "Industrial Chemistry" },
+        { "acronym": "MBG", "name": "Microbiology" },
+        { "acronym": "PSB", "name": "Plant Science and Biotechnology" },
+        { "acronym": "SLT", "name": "Sciene Laboratory and Technology" }
+      ]
+    },
+    {
+      "acronym": "SOS",
+      "name": "Faculty of Social Science",
+      "departments": [
+        { "acronym": "POL", "name": "Polital Science" },
+        { "acronym": "SOC", "name": "Sociology" },
+        { "acronym": "ECO", "name": "Economics" },
+        { "acronym": "GPS", "name": "Geography and Planning Science" },
+        { "acronym": "PSY", "name": "Psychology and Behavioural Studies" },
+        { "acronym": "THM", "name": "Tourism and Hospitality Management" }
+      ]
+    },
+    {
+      "acronym": "MULTI",
+      "name": "Faculty of Multidisciplinary Studies",
+      "departments": [
+        { "acronym": "MASS_COMM", "name": "Mass Communication" },
+        { "acronym": "GDS", "name": "Gender and Development Studies" },
+        { "acronym": "PSS", "name": "Peace and Security Studies" }
+      ]
+    },
+    {
+      "acronym": "BCS",
+      "name": "Faculty of Basic Clinical Sciences",
+      "departments": [
+        { "acronym": "ANP", "name": "Anatomic Pathology" },
+        { "acronym": "CHP", "name": "Chemical Pathology" },
+        { "acronym": "MBP", "name": "Haematology And Blood Transfusion" },
+        { "acronym": "MBP", "name": "Microbiology And Parasitology" },
+        { "acronym": "PHT", "name": "Pharmacology and therapeutics" }
+      ]
+    },
+    {
+      "acronym": "CSS",
+      "name": "Faculty of Clinical Sciences",
+      "departments": [
+        { "acronym": "ANE", "name": "Anaesthesia" },
+        { "acronym": "CMD", "name": "Community Medicine" },
+        { "acronym": "FMD", "name": "Family Medicine" },
+        { "acronym": "DST", "name": "Dentistry" },
+        { "acronym": "MBS", "name": "Medicine" },
+        { "acronym": "OBG", "name": "Obstetrics and Gynecology" },
+        { "acronym": "OPT", "name": "Ophthalmology" },
+        { "acronym": "PAD", "name": "Paediatrics" },
+        { "acronym": "PSC", "name": "Psychiatry" },
+        { "acronym": "RAD", "name": "Radiology" },
+        { "acronym": "SGY", "name": "Surgery" }
+      ]
+    },
+    {
+      "acronym": "BCS",
+      "name": "Faculty of Basic Medical Sciences ",
+      "departments": [
+        { "acronym": "ANM", "name": "Anatomy" },
+        { "acronym": "MBC", "name": "Medical Biochemistry" },
+        { "acronym": "NSG", "name": "Nursing" },
+        { "acronym": "PSY", "name": "Physiology" }
       ]
     }
   ]

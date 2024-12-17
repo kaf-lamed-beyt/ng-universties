@@ -30,6 +30,43 @@ This is a public API of comprehensive, community-driven database of Nigerian uni
    7. Commit your changes with this command: `git commit -m "a message indicating what you've done"`
    8. Create a Pull Request. [Watch this](https://www.youtube.com/watch?v=nCKdihvneS0)
 
+---
+
+### How to Get the Data
+
+**For Faculties and Departments:**
+1. Visit the school portal (e.g., [https://www.unilorin.edu.ng/](https://www.unilorin.edu.ng/)).
+2. In the navigation menu, hover over **Academics** to see a dropdown list of all faculties.
+3. To view the departments under a specific faculty:
+   - Click on the desired faculty from the dropdown menu.
+   - On the faculty's webpage, hover over **Departments** to see a dropdown list of all departments.
+4. You can either:
+   - Manually record the data, or
+   - Inspect the webpage's source code to extract the HTML. You can clean and format this data into JSON using tools like ChatGPT.
+
+**Note:**  
+The school website is the most reliable source for updated data. However, feel free to explore other options if they are more convenient.
+
+
+**For Universities' Logos:**
+1. Go to [Nigerian University Logos on MySchoolPortal](https://myschoolportal.net/blog/nigerian-university-logos/).
+2. Find the logo of the university you are researching.
+3. Click on the logo to open it in a new tab.
+4. Once the logo page is open:
+   - Right-click on the logo.
+   - Choose **Save image as** or a similar option to download it.
+
+![ng-univerisities-logo-copy](https://github.com/user-attachments/assets/d075ee10-1273-4f8a-b578-4096e934e2a2)
+
+
+**Note:**  
+If the logo for a specific university is unavailable on the portal, try these alternative sources:  
+- The university’s official website.  
+- Wikipedia.  
+- News outlets or other trusted platforms.
+
+---
+
 ### Data Validation
 
 Before submitting:
