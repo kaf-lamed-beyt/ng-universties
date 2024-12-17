@@ -29,8 +29,9 @@ export default async function handler(
     case "GET":
       try {
         const universities = loadUniversities();
-        const { type, city, state, acronym, page = "1", limit = "20" } = query;
-
+        const { name, type, city, state, acronym, page = "1", limit = "20" } = query;
+        
+        const nameFilter = Array.isArray(name) ? name[0] : name;
         const typeFilter = Array.isArray(type) ? type[0] : type;
         const cityFilter = Array.isArray(city) ? city[0] : city;
         const stateFilter = Array.isArray(state) ? state[0] : state;
@@ -39,6 +40,12 @@ export default async function handler(
         const pageLimit = limit as string;
 
         let filtered = universities.filter((university) => {
+          if (
+            nameFilter &&
+            university.name?.toLowerCase() !== nameFilter.toLowerCase()
+          ) {
+            return false;
+          }
           if (
             typeFilter &&
             university.type?.toLowerCase() !== typeFilter.toLowerCase()

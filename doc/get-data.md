@@ -23,6 +23,7 @@ Fetches all universities or filters universities based on query parameters.
 
 | Parameter  | Type     | Description                                                                                                                                 |
 |------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`     | `string` | Filter universities by name (e.g., `Kwara State University`).     |
 | `type`     | `string` | Filter universities by type (e.g., `federal`, `state`, `private`).                                                                          |
 | `city`     | `string` | Filter universities by the city they are located in (e.g., `Ile-Ife`).                                                                      |
 | `state`    | `string` | Filter universities by the state they are located in (e.g., `Osun`).                                                                        |
@@ -65,6 +66,42 @@ GET {{baseURL}}
 ```
 
 ---
+
+#### **2. GET Universities by Name**
+
+Pass the full university name only:
+
+**Request:**
+```http
+GET {{baseURL}}?name=Obafemi Awolowo University
+```
+**Response:**
+```json
+[
+  {
+    "logo": "https://university.edu.ng/logo.png",
+    "current_vc": "Prof. Stephen Gbolagade",
+    "name": "Obafemi Awolowo University",
+    "acronym": "OAU",
+    "location": { "city": "Ile-Ife", "state": "Osun" },
+    "founded": 1961,
+    "website": "https://oauife.edu.ng",
+    "faculties": [
+      {
+        "acronym": "SCI",
+        "name": "Faculty of Science",
+        "departments": [
+          { "acronym": "CSC", "name": "Computer Science" },
+          { "acronym": "PHY", "name": "Physics" }
+        ]
+      }
+    ]
+  }
+]
+```
+
+---
+
 
 #### **2. GET Universities by Type**
 **Request:**
