@@ -2,13 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.4](https://github.com/kaf-lamed-beyt/ng-universities/compare/v0.1.3...v0.1.4) (2024-12-17)
-
-
-### Bug Fixes
-
-* Added filter by school name ([7620c7c](https://github.com/kaf-lamed-beyt/ng-universities/commit/7620c7cd11a82d30278b818222ef3626dd6cdd7e))
-
 ### [0.1.3](https://github.com/kaf-lamed-beyt/ng-universities/compare/v0.1.2...v0.1.3) (2024-12-16)
 
 
