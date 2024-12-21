@@ -1,0 +1,390 @@
+{
+  "logo": "https://myschoolportal.net/blog/wp-content/uploads/2024/11/osun-state-university-logo-transparent.png",
+  "current_vc": "Professor Odunayo Clement Adebooye",
+  "name": "Osun State University",
+  "acronym": "UNIOSUN",
+  "type": "state",
+  "location": {
+    "city": "Osogbo",
+    "state": "Osun"
+  },
+  "founded": 2006,
+  "website": "https://www.uniosun.edu.ng",
+  "faculties": [
+    {
+      "acronym": "BAS",
+      "name": "Faculty of Basic and Applied Sciences",
+      "departments": [
+        { "acronym": "AEB", "name": "Animal and Environmental Biology" },
+        { "acronym": "BIO", "name": "Biochemistry" },
+        { "acronym": "BT", "name": "Biotechnology" },
+        { "acronym": "FST", "name": "Food Science and Technology" },
+        { "acronym": "GEO", "name": "Geology" },
+        { "acronym": "MTS", "name": "Mathematical Sciences" },
+        { "acronym": "MAT", "name": "Mathematics" },
+        { "acronym": "IMAT", "name": "Industrial Mathematics" },
+        { "acronym": "MIC", "name": "Microbiology" },
+        { "acronym": "PHE", "name": "Physics with Electronics" },
+        { "acronym": "PB", "name": "Plant Biology" },
+        { "acronym": "PAC", "name": "Pure and Applied Chemistry" },
+        { "acronym": "SLT", "name": "Science Laboratory Technology" },
+        { "acronym": "STA", "name": "Statistics" }
+      ]
+    },
+    {
+      "acronym": "ENG",
+      "name": "Faculty of Engineering",
+      "departments": [
+        { "acronym": "AGE", "name": "Agricultural Engineering" },
+        { "acronym": "CHE", "name": "Chemical Engineering" },
+        { "acronym": "CIV", "name": "Civil Engineering" },
+        { "acronym": "EEE", "name": "Electrical/Electronics Engineering" },
+        { "acronym": "MEC", "name": "Mechanical Engineering" }
+      ]
+    },
+    {
+      "acronym": "ENV",
+      "name": "Faculty of Environmental Sciences",
+      "departments": [
+        { "acronym": "ARC", "name": "Architecture" },
+        { "acronym": "BLD", "name": "Building" },
+        { "acronym": "EST", "name": "Estate Management" },
+        { "acronym": "QS", "name": "Quantity Surveying" },
+        { "acronym": "URP", "name": "Urban and Regional Planning" }
+      ]
+    },
+    {
+      "acronym": "CIT",
+      "name": "Faculty of Computing and Information Technology",
+      "departments": [
+        { "acronym": "CSC", "name": "Computer Science" },
+        { "acronym": "CYB", "name": "Cyber Security" },
+        { "acronym": "IS", "name": "Information Systems" },
+        { "acronym": "IT", "name": "Information Technology" },
+        { "acronym": "SE", "name": "Software Engineering" },
+        { "acronym": "LIS", "name": "Library and Information Science" }
+      ]
+    },
+    {
+      "acronym": "AGRIC",
+      "name": "College of Agriculture",
+      "departments": [
+        {
+          "acronym": "ANSC",
+          "name": "Animal Science"
+        },
+        {
+          "acronym": "AERD",
+          "name": "Agricultural Extension and Rural Development"
+        },
+        {
+          "acronym": "AGRO",
+          "name": "Agronomy"
+        },
+        {
+          "acronym": "AEAM",
+          "name": "Agricultural Economics and Agribusiness Management"
+        }
+      ]
+    },
+    {
+      "acronym": "RENEW",
+      "name": "Faculty of Renewable Natural Resources Management",
+      "departments": [
+        {
+          "acronym": "FARM",
+          "name": "Fisheries and Aquatic Resources Management"
+        },
+        {
+          "acronym": "FRM",
+          "name": "Forest Resources Management"
+        },
+        {
+          "acronym": "WEM",
+          "name": "Wildlife and Ecotourism Management"
+        }
+      ]
+    },
+    {
+      "acronym": "EDUC",
+      "name": "Faculty of Education",
+      "departments": [
+        {
+          "acronym": "ASSE",
+          "name": "Arts and Social Sciences Education"
+        },
+        {
+          "acronym": "STME",
+          "name": "Science, Technology and Mathematics Education"
+        },
+        {
+          "acronym": "ACE",
+          "name": "Adult and Continuing Education"
+        },
+        {
+          "acronym": "ETEC",
+          "name": "Educational Technology"
+        },
+        {
+          "acronym": "ENVE",
+          "name": "Environmental Education"
+        },
+        {
+          "acronym": "BUSE",
+          "name": "Business Education"
+        },
+        {
+          "acronym": "GC",
+          "name": "Guidance and Counselling"
+        }
+      ]
+    },
+
+    {
+      "acronym": "HUM",
+      "name": "Faculty of Humanities",
+      "departments": [
+        {
+          "acronym": "PHIL",
+          "name": "Philosophy"
+        },
+        {
+          "acronym": "THAR",
+          "name": "Theatre Arts"
+        },
+        {
+          "acronym": "TOUR",
+          "name": "Tourism"
+        },
+        {
+          "acronym": "REL",
+          "name": "Religion"
+        }
+      ]
+    },
+    {
+      "acronym": "CULT",
+      "name": "Faculty of Culture",
+      "departments": [
+        {
+          "acronym": "HIS",
+          "name": "History and International Studies"
+        },
+        {
+          "acronym": "LAL",
+          "name": "Languages and Linguistics"
+        },
+        {
+          "acronym": "ELS",
+          "name": "English and Literary Studies"
+        },
+        {
+          "acronym": "FLS",
+          "name": "Foreign Languages"
+        },
+        {
+          "acronym": "LCS",
+          "name": "Linguistics and Communication Studies"
+        }
+      ]
+    },
+    {
+      "acronym": "BMS",
+      "name": "Faculty of Basic Medical Sciences",
+      "departments": [
+        {
+          "acronym": "ANA",
+          "name": "Anatomy"
+        },
+        {
+          "acronym": "PHY",
+          "name": "Physiology"
+        },
+        {
+          "acronym": "BCH",
+          "name": "Biochemistry"
+        }
+      ]
+    },
+    {
+      "acronym": "CLIN",
+      "name": "Faculty of Clinical Sciences",
+      "departments": [
+        {
+          "acronym": "COMM",
+          "name": "Community Medicine"
+        },
+        {
+          "acronym": "MED",
+          "name": "Medicine"
+        },
+        {
+          "acronym": "OG",
+          "name": "Obstetrics and Gynaecology"
+        },
+        {
+          "acronym": "PAED",
+          "name": "Paediatrics"
+        },
+        {
+          "acronym": "OPTH",
+          "name": "Ophthalmology"
+        },
+        {
+          "acronym": "PSYC",
+          "name": "Psychiatry"
+        },
+        {
+          "acronym": "SURG",
+          "name": "Surgery"
+        },
+        {
+          "acronym": "NS",
+          "name": "Nursing Science"
+        }
+      ]
+    },
+    {
+      "acronym": "BCLIN",
+      "name": "Faculty of Basic Clinical Sciences",
+      "departments": [
+        {
+          "acronym": "CHEM",
+          "name": "Chemical Pathology"
+        },
+        {
+          "acronym": "HBT",
+          "name": "Haematology and Blood Transfusion"
+        },
+        {
+          "acronym": "MAH",
+          "name": "Morbid Anatomy and Histopathology"
+        },
+        {
+          "acronym": "PHARM",
+          "name": "Pharmacology"
+        },
+        {
+          "acronym": "MMIC",
+          "name": "Medical Microbiology and Parasitology"
+        }
+      ]
+    },
+    {
+      "acronym": "MGMT",
+      "name": "Faculty of Management Sciences",
+      "departments": [
+        {
+          "acronym": "ACC",
+          "name": "Accounting"
+        },
+        {
+          "acronym": "BFIN",
+          "name": "Banking and Finance"
+        },
+        {
+          "acronym": "BUS",
+          "name": "Business Administration"
+        },
+        {
+          "acronym": "CRD",
+          "name": "Cooperative and Rural Development"
+        },
+        {
+          "acronym": "MKT",
+          "name": "Marketing"
+        },
+        {
+          "acronym": "ENT",
+          "name": "Entrepreneurial Studies"
+        },
+        {
+          "acronym": "HRD",
+          "name": "Human Resource Development"
+        },
+        {
+          "acronym": "ERHR",
+          "name": "Employment Relation and Human Resource"
+        },
+        {
+          "acronym": "PUBAD",
+          "name": "Public Administration"
+        }
+      ]
+    },
+    {
+      "acronym": "SOC",
+      "name": "Faculty of Social Sciences",
+      "departments": [
+        {
+          "acronym": "DSS",
+          "name": "Demography and Social Statistics"
+        },
+        {
+          "acronym": "ECO",
+          "name": "Economics"
+        },
+        {
+          "acronym": "GEO",
+          "name": "Geography"
+        },
+        {
+          "acronym": "IRD",
+          "name": "International Relations and Diplomacy"
+        },
+        {
+          "acronym": "PSCI",
+          "name": "Political Science"
+        },
+        {
+          "acronym": "PSY",
+          "name": "Psychology"
+        },
+        {
+          "acronym": "SW",
+          "name": "Social Works"
+        },
+        {
+          "acronym": "SOC",
+          "name": "Sociology"
+        }
+      ]
+    },
+    {
+      "acronym": "LIB",
+      "name": "Faculty of Liberal Studies",
+      "departments": [
+        {
+          "acronym": "CSS",
+          "name": "Criminology and Security Studies"
+        },
+        {
+          "acronym": "PCS",
+          "name": "Peace and Conflict Studies"
+        }
+      ]
+    },
+    {
+      "acronym": "LAW",
+      "name": "Faculty of Law",
+      "departments": [
+        {
+          "acronym": "LAW",
+          "name": "Law"
+        },
+        {
+          "acronym": "BPL",
+          "name": "Business and Private Law"
+        },
+        {
+          "acronym": "CIL",
+          "name": "Common and Islamic Law"
+        },
+        {
+          "acronym": "PIL",
+          "name": "Public and International Law"
+        }
+      ]
+    }
+  ]
+}
